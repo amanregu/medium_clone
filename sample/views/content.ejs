@@ -1,0 +1,11 @@
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<div class="wrapper">
+    <% if(loggedUser)  { %>
+    <a>Hey,</a><%= loggedUser.name %>
+    <% } %>
+    <p>Welcome to <%= title %></p>    
+<h2>Your session is active.</h2> 
+</div>
+<div>
+    <a href="/users/logout" class="btn margin">Logout</a>
+ </div>

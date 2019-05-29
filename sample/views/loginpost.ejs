@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
+  <title>Home</title>
+  <style>
+      body {
+    margin: 0;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+
+}
+
+#navbar {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    background-color: #d5adc8;
+    background-image: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+    grid-gap: 1.5em;
+    padding: 0 40px;
+    -webkit-box-shadow: -1px 4px 5px 0px rgba(209,205,209,1);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(209,205,209,1);
+    box-shadow: -1px 4px 5px 0px rgba(209,205,209,1);
+}
+
+#logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#links {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+  </style>
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <div id="navbar">
+        <div id="logo">
+          <h1>Medium</h1>
+        </div>
+        <div id="links">
+          <a href="">Home</a>
+<a href="/users/createarticle">Create New Article</a>
+<a href="/users/content" class="btn margin">Content</a>
+<a href="/users/logout" class="btn margin">Logout</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+        <h1>You are logged in.</h1>
+  </section>
+  
+  
+  
+</body>
+</html>
